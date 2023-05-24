@@ -6,6 +6,9 @@ from collections import defaultdict
 
 collistl=[]
 collist=[]
+
+#for header row
+
 def checkprint(ft,collist2,s):
     if isinstance(ft,dict)==True:
         i=str(collist2[-1])
@@ -43,7 +46,8 @@ def checkprint(ft,collist2,s):
     return collist2
  
  
- 
+#for table data 
+    
 def checkprint2(ft,collist2,s):
     if isinstance(ft,dict)==True:
         i=str(collist2[-1])
